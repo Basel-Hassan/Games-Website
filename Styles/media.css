@@ -1,0 +1,401 @@
+/* MD  */
+
+@media screen and (min-width : 768px) {
+
+    .my-cont {
+        --bs-gutter-x: 48px;
+    }
+
+    .top-header {
+        &::before {
+            width: calc(var(--rem-0-4) * 16);
+            left: -80px;
+        }
+
+        &::after {
+            width: calc(var(--rem-0-4) * 16);
+            right: -80px;
+        }
+    }
+
+    /* padding  */
+    .pad-md-12-16 {
+        padding: 12px 16px;
+    }
+
+    .pad-md-12-24 {
+        padding: 12px 24px;
+    }
+
+    .pad-md-16-24 {
+        padding: 16px 24px;
+    }
+
+    .pad-md-16-32 {
+        padding: 16px 32px;
+    }
+
+    .pad-md-24 {
+        padding: 24px;
+    }
+
+    .pad-md-32 {
+        padding: 32px;
+    }
+
+    .pad-md-b-16 {
+        padding-bottom: 16px !important;
+    }
+
+    .pad-md-t-32 {
+        padding-top: 32px;
+    }
+
+    .pad-md-b-56 {
+        padding-bottom: 56px !important;
+    }
+
+    .pad-md-y-8 {
+        padding-block: 8px;
+    }
+
+    .pad-md-y-120-64 {
+        padding-block: 120px 64px;
+    }
+
+    .pad-md-y-96-48 {
+        padding-block: 96px 48px;
+    }
+
+    .pad-md-y-24-32 {
+        padding-block: 24px 32px;
+    }
+
+    .pad-md-y-96 {
+        padding-block: 96px;
+    }
+
+    .pad-md-y-64 {
+        padding-block: 64px;
+    }
+
+    /* Margin  */
+
+    .m-md-y-16-8 {
+        margin: 16px 0 8px 0;
+    }
+
+    .m-md-y-16-24 {
+        margin: 16px 0 24px 0;
+    }
+
+    .m-md-y-24-32 {
+        margin-block: 24px 32px;
+    }
+
+    .m-md-t-48 {
+        margin-top: 48px;
+    }
+
+    .m-md-t-32 {
+        margin-top: 32px;
+    }
+
+    .m-md-t-16 {
+        margin: 16px 0 0 0;
+    }
+
+    .m-md-b-64 {
+        margin-bottom: 64px;
+    }
+
+    /* Font Size  */
+
+    .fs-md-1-2 {
+        font-size: var(--rem-1-2);
+    }
+
+    .fs-md-1-4 {
+        font-size: var(--rem-1-4);
+    }
+
+    .fs-md-1-6 {
+        font-size: var(--rem-1-6);
+    }
+
+    .fs-md-1-8 {
+        font-size: var(--rem-1-8);
+    }
+
+    .fs-md-2-0 {
+        font-size: var(--rem-2);
+    }
+
+    .fs-md-2-4 {
+        font-size: var(--rem-2-4);
+    }
+
+    .fs-md-3-6 {
+        font-size: var(--rem-3-6);
+    }
+
+    .fs-md-4-8 {
+        font-size: var(--rem-4-8);
+    }
+
+    /* Gap  */
+    .gap-md-8 {
+        gap: 8px;
+    }
+
+    .gap-md-12 {
+        gap: 12px;
+    }
+
+    .gap-md-16 {
+        gap: 16px;
+    }
+
+    .gap-md-24 {
+        gap: 24px;
+    }
+
+    .gap-md-32 {
+        gap: 32px;
+    }
+
+    .gap-md-48 {
+        gap: 48px;
+    }
+
+    .gap-md-64 {
+        gap: 64px;
+    }
+
+    /* border radius  */
+    .brr-md-8 {
+        border-radius: 8px;
+    }
+
+    .brr-md-12 {
+        border-radius: 12px;
+    }
+
+    /* width  */
+    .w-md-50 {
+        width: 50%;
+    }
+
+    .w-md-fit {
+        width: fit-content !important;
+    }
+
+    /* NavBar  */
+    .nav-outer .menu-drop ul li {
+        min-height: 40px;
+    }
+
+    .nav-outer .menu-drop .nav-btns .nav-btn {
+        min-height: 0;
+    }
+
+    /* Hero Section  */
+
+    .hero-md-cont {
+        --bs-gutter-x: 144px;
+    }
+
+    .hero .hero-first .hero-btns button.hero-btn {
+        width: fit-content !important;
+    }
+
+    .hero .hero-second .hero-img {
+        img {
+            height: calc(var(--rem-0-4) * 96);
+        }
+
+        .act-play {
+            left: calc(var(--rem-0-4) * -6);
+            bottom: calc(var(--rem-0-4) * -6);
+        }
+    }
+
+    /* Latest Games   */
+
+    .latest-games .my-cont .latest-games-parent .latest-games-slide .latest-normal-btn {
+        min-height: 0;
+    }
+
+    .latest-games .my-cont .latest-games-parent .latest-games-slide .slide-btns button {
+        width: 56px;
+        height: 56px;
+    }
+
+    /* We Do  */
+
+    .we-do .my-cont .we-do-grid-group {
+        --bs-gutter-y: 2.4rem;
+        --bs-gutter-x: 2.4rem;
+
+        .we-do-grid {
+
+            &::before {
+                top: -16px;
+                left: -16px;
+            }
+
+            &::after {
+                bottom: -16px;
+                right: -16px;
+            }
+
+            .grid-icon {
+                width: 64px !important;
+                height: 64px !important;
+            }
+        }
+    }
+
+    /* Our Team  */
+
+    .our-team .my-cont .our-team-grid-group .our-team-grid-outer .our-team-grid img {
+        height: 320px;
+    }
+
+    /* Contact  */
+
+    .contact .my-cont .contact-parent .contact-content .contact-info {
+        .contact-info-card .contact-info-card-icon {
+            width: 64px;
+            height: 64px;
+        }
+
+        .contact-info-community .contact-info-community-icon {
+            width: 48px;
+            height: 48px;
+        }
+    }
+
+    .contact .my-cont .contact-parent .contact-content .contact-form form .form-group .checkbox {
+        width: 20px;
+        height: 20px;
+    }
+
+    /* Footer  */
+
+    footer .my-cont .footer-parent .footer-top .footer-header .footer-social-icon {
+        width: fit-content;
+        height: auto;
+    }
+}
+
+/* LG  */
+
+@media screen and (min-width: 992px) {
+
+    /* Width  */
+
+    .w-lg-50 {
+        width: 50% !important;
+    }
+
+    .w-lg-25 {
+        width: 25% !important;
+    }
+
+    .w-lg-fit {
+        width: fit-content !important;
+    }
+
+    /* Gap  */
+
+    .gap-lg-16 {
+        gap: 16px;
+    }
+
+    .gap-lg-24 {
+        gap: 24px;
+    }
+
+    .gap-lg-32 {
+        gap: 32px;
+    }
+
+
+    /* Padding  */
+    .pad-lg-8-24 {
+        padding: 8px 24px;
+    }
+
+    /* Font Size  */
+
+    .fs-lg-4-8 {
+        font-size: var(--rem-4-8);
+    }
+
+    .fs-lg-6-0 {
+        font-size: var(--rem-6-0);
+    }
+
+    /* NavBar  */
+    .nav-outer .menu-drop {
+        ul {
+            border-bottom: none;
+        }
+
+        ul li,
+        .nav-btns .nav-btn {
+            min-height: none;
+        }
+
+    }
+
+    /* Hero  */
+    .hero-lg-cont {
+        --bs-gutter-x: 48px;
+        max-width: none;
+    }
+
+    /* Sponsor  */
+
+    .sponsor .sponsor-bg .sponsor-bg-top {
+        width: 60%;
+    }
+
+
+    /* Our Team */
+
+    .our-team .my-cont .our-team-grid-group .our-team-grid-outer .our-team-grid .par-rot {
+        position: absolute;
+        right: -70px;
+        bottom:-20px ;
+        font-size: 18px;
+    }
+
+    .our-team .my-cont .our-team-grid-group .our-team-grid-outer .our-team-grid .our-team-text  h3{
+        width: 75%;
+        font-size: 20px;
+    }
+
+    .our-team .my-cont .our-team-grid-group .our-team-grid-outer .our-team-grid .our-team-text  p.main-color{
+        width: 85%;
+        font-size: 14px;
+    }
+}
+
+/* xxl */
+
+@media screen and (min-width: 1400px) {
+    
+    .my-cont {
+        --bs-gutter-x: 288px;
+    }
+    
+    .nav-xxl-cont {
+        padding-inline: 44px !important;
+    }
+
+    .hero-xxl-cont {
+        --bs-gutter-x: 320px;
+    }
+}
